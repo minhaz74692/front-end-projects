@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+#title,#testimonials,#press, #cta{
+    background-color: rgb(65, 116, 75);
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding:  0 0 4.5rem;
+}
+/* .navbar-nav{
+    padding: 0 5rem;
+} */
+.nav-item{
+    padding: 2% 1.5rem;
+    font-size: 1.3rem;
+}
+.heading{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    line-height: 1.4;
+}
+/* .navbar-nav{
+    padding: 0 5rem;
+} */
+.download{
+    margin: 0 1rem 1rem 1rem;
+    font-family: Ubuntu;
+}
+#title {
+    overflow: hidden;
+  }
+.image{
+    position: absolute;
+    width: 60%;
+    right: 30%;
+    transform: rotate(25deg);
+}
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+    .image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+
+/* Features Section */
+#features{
+    padding: 6rem 10%;
+    text-align: center;
+}
+.fa-solid{
+    margin-bottom:1rem ;
+}
+.fa-solid:hover{
+    opacity: .8;
+}
+.feature{
+    padding: 1rem 2rem;
+}
+.carouselDiv{
+    display:flex ;
+     justify-content: center;
+     align-items: center;
+}
+.carouselImage{
+    display: block;
+    border-radius: 50%;
+    width: 10rem
+}
+.carouselDiv p{
+    color: white;
+    padding-left: 2rem;
+    font-style: italic;
+}
+.carousel-item h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.carousel-inner{
+    padding: 5rem 0;
+}
+#press{
+    padding: 4rem 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#press img{
+    width:16vw;
+}
+.pricing-title{
+    padding-top: 4rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.pricing-title h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.pricing-title p{
+    font-size: 1.5rem;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0rem;
+}
+.pricing-item{
+    padding: 0 ;
+    border: 1px solid;
+    border-color: rgba(10, 10, 10, .2);
+    border-radius: 5px;
+    
+}
+.pricing-item h3{
+    background-color: rgb(224, 239, 239);
+    padding: 1rem 0;
+    font-weight: bold;
+    width: 20vw;
+}
+.pricing-item h2, .pricing-item h3,.pricing-item p{
+    text-align: center;
+}
+.pricing-item h2{
+    font-weight: bold;
+}
+.pricing-item button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#cta{
+    padding: 5rem 12rem 3rem  12rem;
+}
+#cta h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3.5rem;
+
+}
+.footer{
+    padding: 6rem 10rem 0 10rem;
+    display: flex;
+    justify-content: center;
+}
+.footer i {
+    padding: 1.5rem;
+    padding-bottom: 0;
+    
+}
+#footer p {
+    text-align: center;
+}
+#footer{
+    padding-bottom: 15rem;
+}
