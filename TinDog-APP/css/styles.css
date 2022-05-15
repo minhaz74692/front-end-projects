@@ -1,156 +1,186 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Ubuntu;
 }
+
 .container-fluid {
     padding: 3% 15% 7%;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
-   
+
 }
-#title,#testimonials,#press, #cta{
+
+#title,
+#testimonials,
+#press,
+#cta {
     background-color: rgb(65, 116, 75);
     margin: 0;
     padding: 0;
 }
-.navbar{
-    padding:  0 0 4.5rem;
+
+.navbar {
+    padding: 0 0 4.5rem;
 }
+
 /* .navbar-nav{
     padding: 0 5rem;
 } */
-.nav-item{
+.nav-item {
     padding: 2% 1.5rem;
     font-size: 1.3rem;
 }
-.heading{
+
+.heading {
     font-size: 4rem;
     font-weight: bold;
     padding-bottom: 3rem;
     line-height: 1.4;
 }
+
 /* .navbar-nav{
     padding: 0 5rem;
 } */
-.download{
+.download {
     margin: 0 1rem 1rem 1rem;
     font-family: Ubuntu;
 }
+
 #title {
     overflow: hidden;
-  }
-.image{
+}
+
+.image {
     position: absolute;
     width: 60%;
     right: 30%;
     transform: rotate(25deg);
 }
-@media (max-width: 1028px) {
-    #title {
-      text-align: center;
-    }
-    .image {
-      position: static;
-      transform: rotate(0);
-    }
-  }
+
 
 
 /* Features Section */
-#features{
+#features {
     padding: 6rem 10%;
     text-align: center;
 }
-.fa-solid{
-    margin-bottom:1rem ;
+
+.fa-solid {
+    margin-bottom: 1rem;
 }
-.fa-solid:hover{
+
+.fa-solid:hover {
     opacity: .8;
 }
-.feature{
+
+.feature {
     padding: 1rem 2rem;
 }
-.carouselDiv{
-    display:flex ;
-     justify-content: center;
-     align-items: center;
+.feature i{
+    font-size: 5rem;
 }
-.carouselImage{
+
+.carouselDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImage {
     display: block;
     border-radius: 50%;
     width: 10rem
 }
-.carouselDiv p{
+
+.carouselDiv p {
     color: white;
     padding-left: 2rem;
     font-style: italic;
 }
-.carousel-item h2{
+
+.carousel-item h2 {
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.5;
 }
-.carousel-inner{
+
+.carousel-inner {
     padding: 5rem 0;
 }
-#press{
+
+#press {
     padding: 4rem 10vw;
     display: flex;
     justify-content: space-between;
 }
-#press img{
-    width:16vw;
+
+#press img {
+    width: 16vw;
 }
-.pricing-title{
+
+.pricing-title {
     padding-top: 4rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
-.pricing-title h2{
+
+.pricing-title h2 {
     font-weight: bold;
     font-size: 3rem;
 }
-.pricing-title p{
+
+.pricing-title p {
     font-size: 1.5rem;
 }
-.pricing{
+
+.pricing {
     display: flex;
     justify-content: space-between;
     padding: 5rem 0rem;
 }
-.pricing-item{
-    padding: 0 ;
+
+.pricing-item {
+    padding: 0;
     border: 1px solid;
     border-color: rgba(10, 10, 10, .2);
     border-radius: 5px;
-    
+
 }
-.pricing-item h3{
+
+.pricing-item h3 {
     background-color: rgb(224, 239, 239);
     padding: 1rem 0;
     font-weight: bold;
     width: 20vw;
 }
-.pricing-item h2, .pricing-item h3,.pricing-item p{
+
+.pricing-item h2,
+.pricing-item h3,
+.pricing-item p {
     text-align: center;
 }
-.pricing-item h2{
+
+.pricing-item h2 {
     font-weight: bold;
 }
-.pricing-item button{
+
+.pricing-item button {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
 }
-#cta{
-    padding: 5rem 12rem 3rem  12rem;
+
+#cta {
+    padding: 5rem 12rem 3rem 12rem;
 }
-#cta h1{
+
+#cta h1 {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -158,19 +188,57 @@
     font-size: 3.5rem;
 
 }
-.footer{
+
+.footer {
     padding: 6rem 10rem 0 10rem;
     display: flex;
     justify-content: center;
 }
+
 .footer i {
     padding: 1.5rem;
     padding-bottom: 0;
-    
+
 }
+
 #footer p {
     text-align: center;
 }
-#footer{
+
+#footer {
     padding-bottom: 15rem;
+}
+
+@media (max-width: 1028px) {
+    .container-fluid {
+        padding: 1% 5% 5% 5%;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        padding: 0 0 1rem;
+    }
+
+    .nav-item {
+        padding: 1% 1.5rem;
+        font-size: 2rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+    .download{
+        font-size: 1.2rem;
+    }
+    
+    .image {
+        position: static;
+        transform: rotate(0);
+    }
+    .feature i{
+        font-size: 7rem;
+    }
 }
